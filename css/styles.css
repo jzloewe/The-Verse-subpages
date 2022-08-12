@@ -4048,9 +4048,8 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
@@ -11327,4 +11326,20 @@ html {
 
 .mb-buf {
   margin-bottom: 200px;
+}
+
+.subpagegamehearder {
+  position: relative;
+  top: 5rem;
+  z-index: 1;
+  color: white;
+}
+
+.buttongameheader {
+  position: relative;
+  top: 28.5rem;
+  z-index: 1;
+  background-color: black;
+  border: solid black;
+  font-weight: bold;
 }
