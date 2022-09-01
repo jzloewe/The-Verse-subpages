@@ -1,0 +1,7 @@
+Due to the size of the video, github does not allow us to push it (video is over 100 MB)
+
+Steps:
+1. Download Video from : https://drive.google.com/file/d/1RECrIq9SDkGhZRiElDvlA-Mt7DfP1vMw/view?usp=sharing 
+2. Convert Video to MAGIX HEVC/AAC MP4
+3. Name video : AiBVideo.mp4
+4. Add to assets folder
