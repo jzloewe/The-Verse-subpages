@@ -11337,9 +11337,14 @@ html {
 
 .buttongameheader {
   position: relative;
-  top: 28.5rem;
   z-index: 1;
   background-color: black;
   border: solid black;
   font-weight: bold;
+}
+
+.carousel-inner .buttongameheader {
+  position: absolute;
+  bottom: 20px;
+  right: 45%;
 }
