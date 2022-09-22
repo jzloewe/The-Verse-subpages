@@ -15,12 +15,11 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
        
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100"> 
         <style>
             .carousel-inner {
                 width: 85%;
                 max-height: 600px !important;
-                min-height: 600px !important;
                 margin-left: 7.5%;
             }
         </style>
@@ -50,18 +49,38 @@
                             <div class="carousel-inner">
                               <h1 class="mb-3 subpagegamehearder" style="font-weight: 800;">The Adventures in Breath</h1>
                               <a class="btn btn-primary btn-lg buttongameheader" href="#scroll-target" style="margin-right: auto;">Play</a>
-                                <video width="100%" height="auto" loop = "loop" controls autoplay loop muted>
-                                    <source src="assets/AiBVideo.mp4" type="video/mp4"/>    
+                              <div class="carousel-item active">
+                                    <iframe src="https://www.youtube.com/embed/C0luNDGs97U?autoplay=1&loop=1&playlist=C0luNDGs97U" width="700" height="400" title="The Adventures in Breath New mp4 1" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                              <div class="carousel-item">
+                                <video class="d-block w-100" width="600" height="auto" loop="loop" controls autoplay loop muted>
+                                    <source src="assets/walkxrvid-2.mp4" type="video/mp4"/>    
                                     Sorry, your browser doesn't support embedded videos.
                                 </video>
+                              </div>
+                              <div class="carousel-item">
+                                <video class="d-block w-100" width="600" height="auto" loop="loop" controls autoplay loop muted>
+                                    <source src="assets/walkxrvid-3.mp4" type="video/mp4"/>    
+                                    Sorry, your browser doesn't support embedded videos.
+                                </video>
+                              </div>
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                         <p class="lead fw-normal text-muted mb-0 mt-3 edge-constrained">
                             Experience breath therapeutics - the health benefits from yoga, meditation, martial arts and the advent of breath work 
                             merged with immersive gameplay. Use your breath to move within a game, to fly through world, and as a means to heal 
-                            yourself and others. 
+                            yourself and others.
                         </p>
                         </div>
+    
                     </div>
                 </div>
             </header>
@@ -76,7 +95,7 @@
                                     vagus nerve and parasympathetic nervous system. This activation alters the pH of the blood and changes blood pressure.
                                     <br><br> Breath can train the body's reaction to stressful situations and dampen the production of harmful stress hormones. 
                                     We measure pre and post state (heart/breath rate) and subjective response to understand the impact of AiB on players. 
-                                    <br><br> <a href="http://www.example.com/default.htm">View Research</a>
+                                   <br><br> <a href="http://www.example.com/default.htm">View Research</a>
                                 </p>
                             </div>
                         </div>
